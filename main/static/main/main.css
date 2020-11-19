@@ -15,25 +15,28 @@ body{
 .first-row{
 	opacity: .8;
 	background-color: #BF3F3F;
-	height: 500px;
+	height: 570px;
 }
 
-.youtube{
-	display: block;
-	align-content: center;
-}
 
 .title{
 	font: 50px 'Gilroy', sans-serif; 
-	text-align: center;
+	float:left;
 	color: black;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 90px;
 }
 
 .sub-title{
-	margin-top: 20px;
+	margin-top: 30px;
 	font: 25px 'Gilroy', sans-serif; 
 	text-align: center;
 	color: black;
+	position: absolute;
+	bottom: 0;
+	margin-left: 180px;
+	margin-bottom: 40px;
 }
 
 .about-us{
@@ -46,4 +49,30 @@ body{
 	font: 20px 'Gilroy', sans-serif; 
 	text-align: center;
 	color: black;
+}
+
+.learn-more{
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 100px;
+	margin-left: 100px;
+}
+
+.btn-text{
+	font: 20px 'Gilroy', sans-serif; 
+}
+
+.rounded{
+	border-top: 8px solid #BF3F3F;
+ 	border-radius: 5px;
+}
+
+.third-row{
+	height: 500px;
+}
+
+.pic1{
+	height:65%;
+	margin-left: -40px;
+	margin-top: 40px;
 }
