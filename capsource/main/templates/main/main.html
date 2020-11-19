@@ -9,6 +9,8 @@
     <!-- my css -->
     <link rel = "stylesheet" type = "text/css" href = "{% static 'main/main.css'%}">
 
+    <link rel="stylesheet" href="https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css">
+
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -16,7 +18,7 @@
 </head>
 <body>
 	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 		  <a class="navbar-left" href="#"><img class = "main-logo" src = "static/main/main_logo.png"></a>
 	        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	          <span class="navbar-toggler-icon"></span>
@@ -37,7 +39,7 @@
 		      </li>
 		      <li class="nav-item dropdown">
 		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Dropdown
+		          Companies
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 		          <a class="dropdown-item" href="#">Action</a>
@@ -47,11 +49,62 @@
 		        </div>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link disabled" href="#">Disabled</a>
+		        <a class="nav-link" href="#">Students</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		          Learn More
+		        </a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <div class="dropdown-divider"></div>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Register</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Login</a>
 		      </li>
 		    </ul>
 		  </div>
 		</nav>
+
+
+		<div class = "row first-row">
+			<div class = "col-2">
+			</div>
+			<div class = "col-8 pl-6 pr-6 pt-5 ">
+				<h1 class = "title">
+					<b>- Our Mission -</b>
+				</h1>
+				<h2 class = "sub-title">
+					To provide students with projects designed alongside established companies. 
+				</h2>
+
+				<p align = "center"><iframe width="460" height="277" src="https://www.youtube.com/embed/fAT9ki7KoBo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+				
+			</div>
+			<div class = "col-2">
+			</div>
+		</div>
+
+		<div class = "row second-row">
+			<div class = "col-2">
+			</div>
+			<div class = "col-8 pt-5">
+				<h1 class = "about-us">
+					<b>About Us</b>
+				</h1>
+				<h2 class = "body-text">
+					CapSource provides students and their institutions with access to a directory of companies interested in collaborating through experiential learning. Using our hands-on collaborations like Site Visits, Co-Ops, Live Business Cases, and Capstone Projects, students learn by working on real challenges with business leaders from our network of host companies. We help design the projects so that they align teaching goals with company objectives in order to maximize the outcomes for all parties. 
+				</h2>
+			</div>
+			<div class = "col-2">
+			</div>
+		</div>
 
 		<!-- javascripts -->
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

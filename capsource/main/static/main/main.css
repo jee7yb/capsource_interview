@@ -1,3 +1,49 @@
 .main-logo{
-	background-color: red;
+	width: 50%;
+}
+
+html{
+ max-height: 100vh;
+ max-width: 100vw;
+}
+
+body{
+ max-width: 100vw;
+ max-height: 100vh;
+}
+
+.first-row{
+	opacity: .8;
+	background-color: #BF3F3F;
+	height: 500px;
+}
+
+.youtube{
+	display: block;
+	align-content: center;
+}
+
+.title{
+	font: 50px 'Gilroy', sans-serif; 
+	text-align: center;
+	color: black;
+}
+
+.sub-title{
+	margin-top: 20px;
+	font: 25px 'Gilroy', sans-serif; 
+	text-align: center;
+	color: black;
+}
+
+.about-us{
+	font: 40px 'Gilroy', sans-serif; 
+	text-align: center;
+	color: black;
+}
+
+.body-text{
+	font: 20px 'Gilroy', sans-serif; 
+	text-align: center;
+	color: black;
 }
