@@ -18,6 +18,14 @@ body{
 	height: 570px;
 }
 
+.second-row{
+	margin-top: 35px;
+}
+
+.hr-row{
+	margin-top:60px;
+}
+
 
 .title{
 	font: 50px 'Gilroy', sans-serif; 
@@ -73,6 +81,6 @@ body{
 
 .pic1{
 	height:65%;
-	margin-left: -40px;
+	margin-left: -10px;
 	margin-top: 40px;
 }
